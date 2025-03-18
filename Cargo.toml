@@ -1,0 +1,17 @@
+[package]
+name = "winit-softbuffer"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.25.5"
+softbuffer = { git = "https://github.com/richerfu/softbuffer.git", branch = "master" }
+winit = { git = "https://github.com/richerfu/winit.git", branch = "feat-ohos-30" }
+
+openharmony-ability = { version = "*" }
+openharmony-ability-derive = { version = "*" }
