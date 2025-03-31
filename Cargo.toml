@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 [dependencies]
 image = "0.25.5"
 softbuffer = { git = "https://github.com/richerfu/softbuffer.git", branch = "master" }
-winit = { git = "https://github.com/richerfu/winit.git", branch = "feat-ohos-30" }
+winit = { git = "https://github.com/richerfu/winit.git", branch = "feat-ohos-30"}
 
-openharmony-ability = { version = "*" }
-openharmony-ability-derive = { version = "*" }
+openharmony-ability = { version = "0.1" }
+openharmony-ability-derive = { version = "0.1" }
